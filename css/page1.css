@@ -1,0 +1,831 @@
+html,
+body {
+  font: normal 100% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1609px;
+  width: 100%;
+}
+.head {
+  position: relative;
+  width: 1609px;
+  height: 152px;
+  background: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  position: absolute;
+  width: 59px;
+  height: 51px;
+  top: 25px;
+  left: 227px;
+}
+.brand1 {
+  position: absolute;
+  color: #050505;
+  font-size: 27px;
+  text-transform: uppercase;
+  top: 14px;
+  left: 299px;
+}
+.letter1 {
+  color: #f16d7f;
+}
+.poisk {
+  position: absolute;
+  width: 405px;
+  height: 41px;
+  top: 30px;
+  left: 427px;
+}
+.prymoug1 {
+  position: absolute;
+  width: 88px;
+  height: 41px;
+  top: 0px;
+  left: 0px;
+}
+.browse {
+  position: absolute;
+  left: 12px;
+  font-size: 14px;
+}
+.strelka1 {
+  position: absolute;
+  width: 9px;
+  height: 6px;
+  top: 17px;
+  left: 70px;
+}
+form.example input[type="text"] {
+  position: absolute;
+  top: 0px;
+  left: 87px;
+  font-size: 14px;
+  border: 1px solid #e6e6e6;
+  width: 280px;
+  height: 37px;
+}
+form.example button {
+  position: absolute;
+  background: white;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  width: 36px;
+  height: 41px;
+  top: 0px;
+  left: 373px;
+}
+input::placeholder {
+  color: #a4a4a4;
+  font-size: 14px;
+}
+.lupa {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 12px;
+  left: 11px;
+}
+.telegka1 {
+  position: absolute;
+  width: 33px;
+  height: 30px;
+  top: 39px;
+  left: 1179px;
+}
+.knop1 {
+  position: absolute;
+  background: #f16d7f;
+  width: 131px;
+  height: 39px;
+  top: 30px;
+  left: 1238px;
+}
+.title2 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  width: 131px;
+  height: 39px;
+  top: 14px;
+  left: 20px;
+}
+.title2:hover {
+  color: #221fd6;
+}
+.title2:active {
+  color: #ffffff;
+}
+.treugolnik2 {
+  position: absolute;
+  width: 9px;
+  height: 6px;
+  top: 19px;
+  left: 110px;
+}
+.rectangle1 {
+  position: absolute;
+  border-top: 3px solid #e8e8e8;
+  width: 1609px;
+  height: 52px;
+  top: 100px;
+}
+.menu {
+  position: absolute;
+  width: 1000px;
+  height: 50px;
+  top: 105px;
+  left: 350px;
+}
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 45px;
+}
+.menu li a {
+  color: #222222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu li a:hover {
+  color: #221fd6;
+}
+.menu li a:active {
+  color: #ffffff;
+}
+.slider1 {
+  position: absolute;
+  width: 1609px;
+  height: 613px;
+  top: 151px;
+}
+.prymougolnik1 {
+  position: absolute;
+  width: 400px;
+  height: 105px;
+  top: 368px;
+  left: 229px;
+}
+.brand3 {
+  position: absolute;
+  text-transform: uppercase;
+  color: #12626d;
+  font-size: 60px;
+  font-weight: bold;
+  top: 301px;
+  left: 254px;
+}
+.luxerious {
+  position: absolute;
+  text-transform: uppercase;
+  color: #191188;
+  font-size: 40px;
+  font-weight: bold;
+  top: 390px;
+  left: 254px;
+}
+.fashion {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: #148d33;
+  top: 390px;
+  left: 520px;
+}
+.blok2 {
+  position: absolute;
+  width: 563px;
+  height: 543px;
+  top: 862px;
+  left: 229px;
+  transition: 3s;
+}
+.blok2:hover {
+  transform: scale(1.2);
+}
+.fon1 {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  top: 26px;
+  left: 0px;
+}
+.hotdeal {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  top: 17px;
+  left: 20px;
+}
+.formen {
+  position: absolute;
+  text-transform: uppercase;
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: bold;
+  top: 30px;
+  left: 20px;
+}
+.blok3 {
+  position: absolute;
+  width: 561px;
+  height: 262px;
+  top: 862px;
+  left: 810px;
+  transition: 3s;
+}
+.blok3:hover {
+  transform: scale(1.2);
+}
+.fon4 {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  top: 26px;
+  left: 0px;
+}
+.offer1 {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  top: 17px;
+  left: 20px;
+}
+.women1 {
+  position: absolute;
+  text-transform: uppercase;
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: bold;
+  top: 30px;
+  left: 20px;
+}
+.blok4 {
+  position: absolute;
+  width: 561px;
+  height: 545px;
+  top: 1143px;
+  left: 810px;
+  transition: 3s;
+}
+.blok4:hover {
+  transform: scale(1.2);
+}
+.fon2 {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  top: 26px;
+  left: 0px;
+}
+.arrivals {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  top: 17px;
+  left: 20px;
+}
+.kids {
+  position: absolute;
+  text-transform: uppercase;
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: bold;
+  top: 30px;
+  left: 20px;
+}
+.blok5 {
+  position: absolute;
+  width: 561px;
+  height: 262px;
+  top: 1423px;
+  left: 229px;
+  transition: 3s;
+}
+.blok5:hover {
+  transform: scale(1.2);
+}
+.fon3 {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  top: 26px;
+  left: 0px;
+}
+.luxirous {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  top: 17px;
+  left: 20px;
+}
+.accesories {
+  position: absolute;
+  text-transform: uppercase;
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: bold;
+  top: 30px;
+  left: 20px;
+}
+.blok6 {
+  position: absolute;
+  text-align: center;
+  top: 1716px;
+  left: 627px;
+}
+.fetured {
+  font-size: 30px;
+  font-weight: bold;
+}
+.shop {
+  font-size: 14px;
+  color: #9f9f9f;
+}
+.iblok1 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 1896px;
+  left: 230px;
+}
+.items1 {
+  position: absolute;
+  width: 261px;
+  height: 280px;
+  transition: 1s;
+}
+.items1:hover {
+  transform: rotate(360deg);
+}
+.mango {
+  position: absolute;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 14px;
+  font-weight: bold;
+  top: 300px;
+  left: 15px;
+}
+.cena52 {
+  position: absolute;
+  text-transform: uppercase;
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: bold;
+  top: 328px;
+  left: 15px;
+}
+.iblok2 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 1896px;
+  left: 520px;
+}
+.iblok3 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 1896px;
+  left: 820px;
+}
+.iblok4 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 1896px;
+  left: 1111px;
+}
+.iblok5 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 2370px;
+  left: 230px;
+}
+.iblok6 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 2370px;
+  left: 520px;
+}
+.iblok7 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 2370px;
+  left: 820px;
+}
+.iblok8 {
+  position: absolute;
+  width: 263px;
+  height: 282px;
+  top: 2370px;
+  left: 1111px;
+}
+.knopka3 {
+  position: absolute;
+  width: 213px;
+  height: 49px;
+  top: 2880px;
+  left: 693px;
+}
+.browseall {
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  top: 5px;
+  left: 50px;
+}
+.browseall:hover {
+  color: #221fd6;
+}
+.browseall:active {
+  color: #ffffff;
+}
+.strel2 {
+  position: absolute;
+  border: 5px red;
+  width: 15px;
+  height: 7px;
+  top: 22px;
+  left: 179px;
+}
+.reklama1 {
+  position: absolute;
+  width: 1141px;
+  height: 530px;
+  top: 3041px;
+  left: 228px;
+}
+.fotorek1 {
+  position: absolute;
+  width: 768px;
+  height: 529px;
+  top: 0px;
+  left: 0px;
+}
+.mashina {
+  position: absolute;
+  width: 46px;
+  height: 33px;
+  top: 48px;
+  left: 803px;
+}
+.procentu {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 204px;
+  left: 803px;
+}
+.korona {
+  position: absolute;
+  width: 48px;
+  height: 36px;
+  top: 358px;
+  left: 805px;
+}
+.delivery {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  top: 32px;
+  left: 882px;
+}
+.wordwide1 {
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  top: 70px;
+  left: 882px;
+}
+.sales {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  top: 189px;
+  left: 882px;
+}
+.wordwide2 {
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  top: 230px;
+  left: 882px;
+}
+.quality {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  top: 345px;
+  left: 882px;
+}
+.wordwide3 {
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  top: 385px;
+  left: 882px;
+}
+.otzovu {
+  position: absolute;
+  width: 1609px;
+  height: 439px;
+  top: 3695px;
+}
+.lico {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: 111px;
+  left: 229px;
+}
+.text1 {
+  position: absolute;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.5;
+  top: 104px;
+  left: 341px;
+}
+.text3 {
+  position: absolute;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.5;
+  top: 215px;
+  left: 341px;
+}
+.lin1 {
+  position: absolute;
+  width: 39px;
+  height: 5px;
+  top: 275px;
+  left: 340px;
+}
+.lin2 {
+  position: absolute;
+  width: 39px;
+  height: 5px;
+  top: 275px;
+  left: 389px;
+}
+.lin3 {
+  position: absolute;
+  width: 39px;
+  height: 5px;
+  top: 275px;
+  left: 438px;
+}
+.liniya1 {
+  position: absolute;
+  width: 2px;
+  height: 439px;
+  top: 0px;
+  left: 798px;
+}
+.text4 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222;
+  font-size: 24px;
+  top: 120px;
+  left: 980px;
+}
+.text5 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222;
+  font-size: 14px;
+  top: 160px;
+  left: 988px;
+}
+.mell {
+  position: absolute;
+  width: 335px;
+  height: 47px;
+  top: 224px;
+  left: 891px;
+}
+.melr {
+  position: absolute;
+  width: 105px;
+  height: 47px;
+  top: 224px;
+  left: 1173px;
+}
+.enter {
+  position: absolute;
+  color: #222;
+  font-size: 14px;
+  top: 226px;
+  left: 920px;
+}
+.subsc {
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  top: 226px;
+  left: 1178px;
+}
+.footer {
+  position: absolute;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1609px;
+  height: 538px;
+  top: 4133px;
+  left: 0px;
+}
+.logo2 {
+  position: absolute;
+  width: 59px;
+  height: 51px;
+  top: 109px;
+  left: 228px;
+}
+.brand2 {
+  position: absolute;
+  color: #050505;
+  font-size: 27px;
+  text-transform: uppercase;
+  top: 97px;
+  left: 300px;
+}
+.letter2 {
+  color: #f16d7f;
+}
+.text6 {
+  position: absolute;
+  color: #050505;
+  font-size: 14px;
+  top: 170px;
+  left: 228px;
+}
+.text7 {
+  position: absolute;
+  color: #050505;
+  font-size: 14px;
+  top: 270px;
+  left: 228px;
+}
+.fblok2 {
+  position: absolute;
+  width: 102px;
+  height: 238px;
+  top: 109px;
+  left: 228px;
+}
+.ftext1 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f16d7f;
+  font-size: 18px;
+  top: -15px;
+  left: 492px;
+}
+.fmenu1 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 20px;
+  left: 452px;
+}
+.fmenu1 li {
+  display: block;
+  margin-top: 25px;
+}
+.fmenu1 li a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 16px;
+}
+.fmenu1 li a:hover {
+  color: #221fd6;
+}
+.fmenu1 li a:active {
+  color: #ffffff;
+}
+.fblok3 {
+  position: absolute;
+  width: 102px;
+  height: 238px;
+  top: 109px;
+  left: 460px;
+}
+.ftext2 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f16d7f;
+  font-size: 18px;
+  top: -15px;
+  left: 492px;
+}
+.fmenu2 {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  top: 20px;
+  left: 452px;
+}
+.fmenu2 li {
+  display: block;
+  margin-top: 25px;
+}
+.fmenu2 li a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 16px;
+}
+.fmenu2 li a:hover {
+  color: #221fd6;
+}
+.fmenu2 li a:active {
+  color: #ffffff;
+}
+.fblok4 {
+  position: absolute;
+  width: 0px;
+  height: 238px;
+  top: 109px;
+  left: 750px;
+}
+.ftext3 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f16d7f;
+  font-size: 18px;
+  width: 190px;
+  height: 238px;
+  top: -15px;
+  left: 492px;
+}
+.fmenu3 {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  top: 20px;
+  left: 452px;
+}
+.fmenu3 li {
+  display: block;
+  margin-top: 25px;
+}
+.fmenu3 li a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 16px;
+}
+.fmenu3 li a:hover {
+  color: #221fd6;
+}
+.fmenu3 li a:active {
+  color: #ffffff;
+}
+.fblok5 {
+  position: absolute;
+  width: 1609px;
+  height: 80px;
+  top: 459px;
+}
+.ftext4 {
+  position: absolute;
+  color: #000000;
+  font-size: 16px;
+  top: 17px;
+  left: 228px;
+}
+.fblok6 {
+  position: absolute;
+  width: 262px;
+  height: 80px;
+  top: 480px;
+  left: 1180px;
+}
